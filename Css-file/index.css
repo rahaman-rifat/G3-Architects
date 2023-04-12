@@ -1,0 +1,238 @@
+/* Common styles for whole website */
+*{
+    font-family: 'Work Sans', sans-serif; 
+}
+.primary-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.primary-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.primary-button{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 22px;
+    margin-top: 22px;
+}
+/*--------
+ Header part styles 
+ ---------*/
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Bannner Navigation styles */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation h2{
+    margin-left: 158px;
+}
+nav{
+    margin-right: 226px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Banner information & thumbnail styles */
+.banner-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-info-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.banner span{
+    padding: 130px;
+}
+
+.banner img{
+    margin: 50px 240px;
+}
+
+/* Quick list of features styles */
+.quick-list-of-features{
+    margin: 85px 0px 130px 290px;
+}
+.list-of-features{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+.list-of-features-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.list-of-features-info .a1{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.list-of-features-info .a2{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* Features you will love & enjoy styles */
+.features-you-will-love-enjoy{
+    margin: 0 240px 130px 240px;
+    display: flex;
+    gap: 54px;
+}
+.enjoyable-feature-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+.enjoyable-feature-info article{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 13px;
+}
+article h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.button-2{
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    left: 880px;
+    top: 3104px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+.button-2 span{
+    font-weight: 700;
+    font-size: 65px;
+}
+/* Soem facts styles */
+.some-facts{
+    margin: 0px 280px 180px 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.facts{
+    display: flex;
+    gap: 125px;
+}
+.facts .extra-margin-left{
+    margin-left: 50px;
+}
+.facts-info{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    transition: transform 1.25s;
+  
+}
+
+/* Transformation of facts info */
+.facts-info:hover{
+    transform: rotate(36deg) scale(1.25);
+}
+
+
+/* Our sponspors styles */
+.our-sponspors{
+    margin: 0px 240px 130px 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.sponspors-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponspors-info span{
+  padding: 120px;
+}
+.sponspors{
+    display: flex;
+    gap: 105px;
+}
+.sponspors img{
+    filter: grayscale(1);
+}
+/* Extra part styles */
+.client-feedback{
+    margin: 0px 240px 130px 240px;
+    background: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.reviewer{
+    margin-left: 30px;
+}
+.reviews img{
+    width: 342px;
+    height: 342px;
+    border-radius: 171px;
+}
+
+/* Footer styles */
+footer{
+    margin: 0px 240px 130px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+}
+ footer p{
+    margin: auto;
+ }

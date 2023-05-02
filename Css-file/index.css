@@ -212,12 +212,17 @@ article h5{
         flex-direction: column;
         gap: 20px;
     }
-    .architect-photo-div img{
-        width: 50%;
-        height: ;
+    .enjoyable-feature-information{
+        width: 100%;
     }
-    .feature-loved{
-        display: ;
+    .architect-photo-div{
+        width: 100%;
+    }
+    .button-2{
+        position: static;
+        width: 300px;
+        height: 130px;
+        margin-top: 20px;
     }
 }
 /* Some facts styles */
